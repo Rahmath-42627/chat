@@ -104,6 +104,16 @@
         .alert-success { @apply bg-emerald-600 }
         .alert-warning { @apply bg-orange-600 }
         .alert-danger { @apply bg-red-600 }
+        .green-dot {
+            @apply rounded-full bg-green-500 p-1.5
+        }
+        .purple-dot {
+            @apply rounded-full bg-purple-900 p-1.5
+        }
+        .purplelight-dot {
+            @apply rounded-full bg-purple-400 p-1.5
+        }
+
     </style>
 </head>
 <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' class="{% block class %}{% endblock %} bg-white">

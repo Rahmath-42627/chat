@@ -100,11 +100,22 @@ CHANNEL_LAYERS = {
     }
 }
 
+
 # CHANNEL_LAYERS = {
 #     "default": {
 #         "BACKEND": "channels_redis.core.RedisChannelLayer",
 #         "CONFIG": {
-#             "hosts": [('redis://default:kpmRdxPFTTkKAgQgYkabhjayPZTapzwH@redis-q1sg.railway.internal:6379')],
+#             "hosts": ["redis://default:CNgxxRwtkTpClAnojavEulxaoFXAQkld@redis.railway.internal:6379"],
+#         },
+#     },
+# }
+
+
+# CHANNEL_LAYERS = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisChannelLayer",
+#         "CONFIG": {
+#             "hosts": [('redis://default:CNgxxRwtkTpClAnojavEulxaoFXAQkld@redis.railway.internal:6379')],
 #         },
 #     },
 # }
